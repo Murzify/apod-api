@@ -12,6 +12,7 @@ Dec 1, 2015 (written by Dan Hammer)
 adapted for AWS Elastic Beanstalk deployment
 @author=JustinGOSSES @email=justin.c.gosses@nasa.gov
 """
+import os
 import sys
 sys.path.insert(0, "../lib")
 ### justin edit
