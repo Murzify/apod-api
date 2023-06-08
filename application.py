@@ -274,9 +274,6 @@ def apod():
         # application/json GET method
         args = request.args
 
-        if not _validate(args):
-            return _abort(400, 'Bad Request: incorrect field passed.')
-
         #
         input_date = args.get('date')
         count = args.get('count')
