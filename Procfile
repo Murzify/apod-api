@@ -1,1 +1,1 @@
-web: gunicorn apod.service:app --log-file=-
+web: python application.py
